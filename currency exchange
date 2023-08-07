@@ -1,0 +1,21 @@
+listpick = int(input("please write yor demand  1. Euro To Usd  2. Usd To Euro"))
+if listpick == 1 :
+    print("Euro To Usd")
+elif listpick == 2 :
+    print("Usd To Euro")
+else :
+    print("nothing")
+
+usd = 1
+Euro = 2
+
+q = float(input("please write Quantity"))
+if listpick == 1 :
+    totalusd = float((usd /Euro) * q)
+    print(totalusd)
+elif listpick == 2:
+    totaleuro = float((Euro / usd) * q)
+    print(totaleuro)
+
+
+
