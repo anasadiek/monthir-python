@@ -1,0 +1,35 @@
+pizzap= 20
+colap=  int(5)
+waterp= int(1.5)
+pizaq= int(input("please write q of pizza   "))
+colaq= int(input("please write q of cola    "))
+waterq= int(input("please write q of water    "))
+
+totalpizza= pizaq * pizzap
+totalcola= colaq*colap
+totalwater= waterq*waterp
+
+print( " total pizza" , "=" ,pizaq, "*", pizzap , "=", totalpizza ,"\n",
+       "total cola" , "=" ,colaq, "*", colap , "=", totalcola ,"\n",
+       "total water " , "=" ,waterq, "*", waterp , "=", totalwater ,"\n")
+
+
+total= totalpizza +  totalcola + totalwater 
+tax = total* .15
+totaltax= total+tax 
+
+print(" total","=",total,"\n"
+      ,"tax" , "=",tax,"\n"
+      " total cost","=",totaltax ,"\n"
+      ,"thank you", 
+
+      )
+
+
+
+
+
+
+
+
+
