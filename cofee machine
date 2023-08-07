@@ -1,0 +1,25 @@
+list = {'tea' : 3 , 'cofee' : 5, 'juice':7, 'shisha':12}
+demand = input("please write your drink   ,'\n', tea = 3 ,'\n', cofee= 5 ,'\n', shisha = 12 ")
+if demand in list :
+    drinkp = list[demand]
+    print(demand ,"price",'=',drinkp)
+elif demand not in list:
+    print("we are sorry item not in our list    ")
+
+moneyin = float(input("please put your money             "))
+
+if moneyin == drinkp :
+    print("have fun and enjoy our {demand}")
+elif moneyin < drinkp:
+    rest = drinkp -  moneyin
+    print("please your money is less than the price we need",rest)
+elif moneyin > drinkp:
+    change=moneyin -drinkp
+    print("please take your change",change)
+    
+
+
+
+
+
+    
